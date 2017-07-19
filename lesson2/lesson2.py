@@ -3,4 +3,4 @@ pizza = int(raw_input("How many pizzas would you like? ")) #This line queries th
 pepperoni = int(raw_input("How much pepperoni would you like? ")) #This line does the same as above, but stores the given vaule in the pepperoni var
 olives = int(raw_input("How many olives would you like? ")) #Same as above, but for olives
 print name, " ordered ", pizza, " pizzas with ", pepperoni, "pepperoni and ", olives, " olives!"
-#For example, this could print "You asked for for 4 pizzas and 8 toppings!"
+#For example, this could print "Livy ordered 4 pizzas with 8 pepperoni and 16 olives!"
