@@ -7,4 +7,3 @@ for i in range(last_index, -1, -1): #The parameters for range() are (number to c
     reverse_array.append(country_array[i])
 
 print reverse_array
-
