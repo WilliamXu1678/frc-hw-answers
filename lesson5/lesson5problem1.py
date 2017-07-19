@@ -1,4 +1,4 @@
-words = ["dog", "cat", "mouse", "elephant", "lion", "giraffe", "leopard", "fish", "bird"]
+words = ["dog", "cat", "mouse", "elephant", "lion", "giraffe", "leopard", "fish", "bird", "slug"]
 
 new_word = raw_input("Input a word: ")
 
