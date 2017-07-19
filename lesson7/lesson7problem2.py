@@ -1,19 +1,10 @@
 def divisible(dividend, divisor):
-    if dividend % divisor == 0:
-        return True
-    else:
-        return False
+    return dividend % divisor == 0
  
-number_one = int(raw_input("Give me an integer:"))
-number_two = int(raw_input("Give me another integer:"))
+dividend = int(raw_input("Give me an integer: "))
+divisor = int(raw_input("Give me another integer: "))
 
-if number_one >= number_two:
-    if divisible(number_one, number_two):
-        print str(number_one) + " is divisible by " + str(number_two)
-    else:
-        print str(number_one) + " is not divisible by " + str(number_two)
+if divisible(dividend, divisor):
+  print str(dividend) + " is divisible by " + str(divisor) + "!"
 else:
-    if divisible(number_two, number_one):
-        print str(number_two) + " is divisible by " + str(number_one)
-    else:
-        print str(number_two) + " is not divisible by " + str(number_one)
+  print str(dividend) + " is not divisible by " + str(divisor) + "!"
