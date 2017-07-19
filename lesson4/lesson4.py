@@ -1,6 +1,6 @@
 age = int(raw_input("How old are you? "))
 
-if age < 13:
+if age < 14:
     print "You're young!"
 elif age < 16:
     print "You're not too young, but you can't drive :(. BUT you can join the robotics team and drive our robot!!!"
